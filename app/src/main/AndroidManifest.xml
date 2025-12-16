@@ -23,6 +23,12 @@
             android:name=".ComposeLabActivity"
             android:exported="true"
             android:theme="@style/Theme.TestApplication">
+        </activity>
+
+        <activity
+            android:name=".ComposeLabStateActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TestApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
